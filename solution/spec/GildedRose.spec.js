@@ -42,7 +42,7 @@ describe("Gilded Rose",function(){
     });
 
     it('sulfuras never decrement quality', function () {
-        let item = new Item("Sulfuras, Hand of Ragnaros",20);
+        let item = new Item("Sulfuras, Hand of Ragnaros",20,80);
 
         new GildedRose([item]).updateQuality();
 
